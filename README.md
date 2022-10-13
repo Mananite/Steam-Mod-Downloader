@@ -4,7 +4,7 @@ Windows only
 
 Supports multiple games
 
-Requirements: Python ([Download Here](https://www.python.org/downloads/)) and Steamcmd ([Download Here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip), It's from [ValveSoftware's wiki](https://developer.valvesoftware.com/wiki/SteamCMD))
+Requirements: Python ([Download Here](https://www.python.org/downloads/)) and Steamcmd ([Download Here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip), From [ValveSoftware's wiki](https://developer.valvesoftware.com/wiki/SteamCMD))
 
 Python libraries: 
 ```
