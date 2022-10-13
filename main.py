@@ -25,7 +25,6 @@ for i in range(len(lines)):
     if "https://steamcommunity.com/app/" in y:
       only_number = re.search(r'\d+',str(y)).group()
       app_id.append(only_number)
-      print(app_id)
       break
 
 
