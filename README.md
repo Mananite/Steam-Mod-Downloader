@@ -1,3 +1,13 @@
+**DO NOT USE**
+
+**DO NOT USE**
+
+**DO NOT USE**
+
+**DO NOT USE**
+
+**IT'S BROKEN BEYOND REPAIR**
+
 # Steam-Mod-Downloader
 
 Windows only
