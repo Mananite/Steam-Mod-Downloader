@@ -1,18 +1,10 @@
-**DO NOT USE**
-
-**DO NOT USE**
-
-**DO NOT USE**
-
-**DO NOT USE**
-
-**IT'S BROKEN BEYOND REPAIR**
+**Sucks But Works**
 
 # Steam-Mod-Downloader
 
 Windows only
 
-Supports multiple games
+Change the app_id with the game's app_id
 
 Requirements: Python ([Download Here](https://www.python.org/downloads/)) and Steamcmd ([Download Here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip), From [ValveSoftware's wiki](https://developer.valvesoftware.com/wiki/SteamCMD))
 
