@@ -13,7 +13,7 @@ print("""
 """)
 
 placeholder_app_id = 0
-app_id = 0
+app_id = 294100
 mods = []
 
 with open("mods.txt","r+") as f:
@@ -36,8 +36,9 @@ with open("mods.txt","r+") as f:
 			placeholder_app_id = app_id
 			continue
 
-		only_number = re.search(r"\bid=(\d+)",str(lines[i]))
+		only_number = re.search(r"\bid=(\d+)",str(lines[i])).group(1)
 		mods.append(str(only_number))
+
 		
 
 if app_id == 0 or None:
@@ -52,7 +53,7 @@ with open("q.txt","w+") as f:
 	f.write("login anonymous")
 	f.write("\n")
 	for i in range(len(mods)+1):
-		f.write(f"workshop_download_item " f"{app_id} {mods[i-1]}")
+		f.write(f"workshop_download_item " f"{app_id} {str(mods[i-1])}")
 		f.write("\n")
 	f.write("exit")
 	f.close()
